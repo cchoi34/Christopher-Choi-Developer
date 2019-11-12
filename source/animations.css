@@ -1,0 +1,19 @@
+[data-aos="custom-animation"] {
+    transform: rotate(0.5turn) scale(0.5);
+    transition-property: transform;
+}
+
+[data-aos="custom-animation"].aos-animate {
+    transform: rotate(0turn) scale(1);
+}
+
+[data-aos="navbar-color"] {
+    background-color: black;
+    transition-property: background-color;
+}
+
+[data-aos="navbar-color"].aos-animate {
+    background-color: rgb(78, 78, 78);
+    transition-duration: 1s;
+}
+
